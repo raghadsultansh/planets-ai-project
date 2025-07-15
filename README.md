@@ -1,63 +1,116 @@
 
-#🌌 Solar System Planet Data Explorer
+# 🌌 Solar System Planet Data Explorer
 
-This Python script allows you to interactively explore and visualize various physical and orbital features of the planets in our solar system using a clean dataset and the pandas and matplotlib libraries.
+This Python project lets you explore and compare key physical and orbital properties of the planets in our Solar System. It’s a simple, interactive script that uses a clean dataset along with `pandas` and `matplotlib` to display information in both table and chart form. It’s great for anyone curious about planetary science or just looking to practice data handling and visualization in Python.
 
-##📁 Dataset Overview
+---
 
-The dataset includes scientific data on the 8 planets in the Solar System, with attributes such as:
+## 📁 Dataset Overview
 
-- Planet Name
-- Color Description
-- Mass (10^24 kg)
-- Diameter (km)
-- Surface Gravity (m/s²)
-- Escape Velocity (km/s)
-- Mean Temperature (°C)
-- Density (kg/m³)
-- Number of Moons
-- And more...
+The dataset includes scientific data on the 8 main planets, with fields like:
 
-##🧪 Script Features
+- Planet Name  
+- Color Description  
+- Mass (10²⁴ kg)  
+- Diameter (km)  
+- Gravity (m/s²)  
+- Escape Velocity (km/s)  
+- Mean Temperature (°C)  
+- Density (kg/m³)  
+- Number of Moons  
+- Orbital Period and more  
 
-This script is interactive and provides:
+The data has been cleaned and formatted to work with the script.
 
-- **Menu-based User Input**: Select which planet features you want to explore.
-- **Flexible Planet Selection**: Choose one, many, or all planets.
-- **Clean Data Table Output**: Shows selected values for each planet.
-- **Bar Chart Visualization**: Displays comparison using simple visual charts.
+---
 
-##🗞 How to Run
+## 🧪 What the Script Does
+
+This script allows you to:
+
+- Select a planetary feature (e.g. mass, gravity, temperature)
+- Choose one, multiple, or all planets for comparison
+- View a neat, pandas-based table of the results
+- Automatically generate a bar chart to visualize differences
+
+The interaction is entirely menu-driven, so you don’t need to modify any code — just run the script and follow the prompts.
+
+---
+
+## ▶️ How to Run the Project
 
 1. Make sure the following files are in the same folder:
    - `planets.csv`
    - `planets.py`
 
-2. Run the script using:
+2. Open your terminal and run:
+
+```bash
+python planets.py
+```
+
+## 📁 Dataset Overview
+
+This project uses a curated dataset containing scientific data on the **8 major planets**, including:
+
+- 🌍 Planet Name  
+- 🎨 Color Description  
+- ⚖️ Mass (10²⁴ kg)  
+- 📏 Diameter (km)  
+- 🧲 Surface Gravity (m/s²)  
+- 🚀 Escape Velocity (km/s)  
+- 🌡 Mean Temperature (°C)  
+- 🧪 Density (kg/m³)  
+- 🌙 Number of Moons  
+- 🔁 Orbital Period and more...
+
+
+## 🧪 Features
+
+This script enables users to:
+
+- 🔘 Select planetary features via a simple menu  
+- 🪐 Choose one, multiple, or all planets  
+- 📊 View clean data tables  
+- 📈 Visualize results with color-coded bar charts  
+
+---
+
+## ▶️ How to Run
+
+1. Make sure the following files are in the same directory:
+   - `planets.csv`
+   - `planets.py`
+
+2. Open a terminal and run:
 
 ```bash
 python planets.py
 ````
 
-3. Follow the prompts in the terminal to:
+3. Follow the interactive prompts to:
 
-* Pick a planetary feature (like mass or temperature)
-* Choose which planets to show
-* View the table and chart
+   * Pick a data feature (e.g., mass, temperature)
+   * Select planets (or type `all`)
+   * View the resulting table and chart
 
-🧠 Requirements
+---
+
+## 📦 Requirements
 
 * Python 3.x
-* pandas
-* matplotlib
+* `pandas`
+* `matplotlib`
 
-If not already installed, you can install the libraries using:
+Install dependencies using:
 
 ```bash
 pip install pandas matplotlib
 ```
 
-📊 Sample Output
+---
+
+## 🧾 Sample Interaction
 
 ```
 What data do you want to see?
@@ -78,6 +131,6 @@ Showing: Gravity
    Mars      3.7
 ```
 
-A bar chart will also be shown comparing the values across selected planets.
+➡️ A bar chart will also appear comparing the gravity values across the selected planets.
 
 
